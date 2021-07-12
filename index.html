@@ -19,8 +19,31 @@
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <style>
+    #toggle-switch:hover{
+      cursor: pointer;
+    }
     a:hover{
       opacity: 0.5;
+    }
+    html{
+      --bck-color: #000;
+      --link-color: #fff;
+    }
+    html.dark {
+      --bck-color: #fff;
+      --ft-color: #FFF;
+      --link-color: #DDD;
+    }
+    body {
+      background: var(--bck-color);
+    }
+    i{
+      color: var(--ft-color);
+    }
+    a:link,
+    a:visited,
+    a:active {
+      color: var(--link-color);
     }
 </style>
 <body>
@@ -29,6 +52,9 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <h1 class="logo"><a href="https://www.youtube.com/channel/UCKRZp3mkvL1CBYKFIlxjDdg" target=”_blank”>Youtube Channel</a></h1>
+      <span id="toggle-switch" title="Toggle Dark Theme">
+        <i class="fas fa-moon" id="toggle-switch"></i>
+      </span>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -71,7 +97,7 @@
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
                         <p><span class="title-s">Name: </span> <span>Lam Kai Zhe</span></p>
-                        <p><span class="title-s">Profile: </span> <span>Tech Guy</span></p>
+                        <p><span class="title-s">Profile: </span> <span>Software Engineer</span></p>
                         <p><span class="title-s">Email: </span> <span>lamkaizhe2001@gmail.com</span></p>
                         <p><span class="title-s">Phone: </span> <span>(617) 557-0089</span></p>
                       </div>
@@ -90,19 +116,17 @@
                       </h5>
                     </div>
                     <p class="lead">
-                      Welcome to my Personal Website!
-                      I'm an IT student major in Web and System development. 
-                      I like to share my own coding experience with all of you!
-                      Please like and <a href="https://bit.ly/2Oajh4C" style="color: blue; font-weight: 700px;" target=”_blank”><b>subscribe</b></a> to my channel and press the bell icon to get new video updates.
-                    </p>
-                    <p class="lead">
-                      <a href="https://youtube.com/playlist?list=PLj45wIw9J1OTAb2Bv75c9OV3k4BHYfc4O" target=”_blank” style="color: blue;">Learn Java Tutorial from Scratch to Master</a>
-                    </p>
-                    <p class="lead">
-                      <a href="https://youtube.com/playlist?list=PLj45wIw9J1OSQxUVjfEMXZg8A8W9XL1Yz" target=”_blank” style="color: blue;">Learn Data structure and Algorithm in C++</a>
-                    </p>
-                    <p class="lead">
-                      <a href="https://youtube.com/playlist?list=PLj45wIw9J1OQN_FlJDp67u5ca5lEtZVQf" target=”_blank” style="color: blue;">Learn Web Development from Scratch to Master</a>
+                      Hey Friends,
+                      Welcome to my online portfolio. Check My <a href="https://www.youtube.com/channel/UCKRZp3mkvL1CBYKFIlxjDdg" target="_blank" style="color: blue; font-weight: bold;">Youtube Channel</a> for more details.
+                      Channel is all about Web Development & Programming Tutorials. <br><br>
+                      <b>Web Development</b> ( Full-Stack ) :
+                      HTML, CSS, JavaScript, DOM (Document Object Model), CSS Layouts, Responsive Design, Bootstrap, JQuery, PHP and etc.
+                      <br><br>
+                      <b>Programming Tutorials</b> :
+                      Java, JavaScript, C, C++, C#, Python and etc.
+                      <br><br>
+                      <b>Database Technology</b> :
+                      MySQL and PostgreSQL.
                     </p>
                   </div>
                 </div>
@@ -120,13 +144,13 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
-              <h3 class="title-a">
+              <h3 class="title-a" style="color:#00FFFF;">
                 Youtube Video
               </h3>
-              <p class="subtitle-a">
-                For more video, visit my <a href="https://www.youtube.com/channel/UCKRZp3mkvL1CBYKFIlxjDdg" target=”_blank” style="color: blue; text-transform: uppercase; font-weight:bold;">youtube channel</a>
+              <p class="subtitle-a" style="color: #FF00FF;">
+                For more videos, visit my <a href="https://www.youtube.com/channel/UCKRZp3mkvL1CBYKFIlxjDdg" target=”_blank” style="color: #FF00FF; text-transform: uppercase; font-weight:bold;">youtube channel</a>
               </p>
-              <div class="line-mf"></div>
+              <div class="line-mf" ></div>
             </div>
           </div>
         </div>
@@ -134,9 +158,9 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-content">
-                <h2 class="s-title" style="text-transform: capitalize; white-space: nowrap;">Frontend VS Backend</h2>
+                <h2 class="s-title" style="text-transform: capitalize; white-space: nowrap;">Create A Website</h2>
                 <p class="s-description text-center">
-                  <iframe width="280" height="185" src="https://www.youtube.com/embed/SAqX591kMTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="280" height="185" src="https://www.youtube.com/embed/SiAHrKck3nY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </p>
               </div>
             </div>
@@ -214,9 +238,9 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-content">
-                <h2 class="s-title" style="text-transform: capitalize;">Java Tutorial OOP</h2>
+                <h2 class="s-title" style="text-transform: capitalize;">CSS Navigation Bar</h2>
                 <p class="s-description text-center">
-                  <iframe width="280" height="185" src="https://www.youtube.com/embed/VXXbIcWs3Kc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="280" height="185" src="https://www.youtube.com/embed/8SCO_haDmv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </p>
               </div>
             </div>
@@ -284,12 +308,14 @@
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  <script src="assets/js/index.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="https://kit.fontawesome.com/3fe16e504a.js" crossorigin="anonymous"></script>
 
   <script src="assets/js/main.js"></script>
 

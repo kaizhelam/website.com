@@ -1,18 +1,7 @@
-/**
-* Template Name: DevFolio - v4.1.0
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
 }
-
 h1,
 h2,
 h3,
@@ -317,9 +306,6 @@ a:hover {
   border-radius: 50%;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -350,7 +336,6 @@ a:hover {
   opacity: 1;
 }
 
-/*------/ Prelaoder /------*/
 #preloader {
   position: fixed;
   top: 0;
@@ -394,7 +379,6 @@ a:hover {
   }
 }
 
-/*------/ Button /------*/
 .button {
   display: inline-block;
   padding: .3rem .6rem;
@@ -443,9 +427,6 @@ a:hover {
   border-radius: .3rem;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
   z-index: 997;
@@ -473,12 +454,6 @@ a:hover {
   padding: 12px 0;
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
 .navbar {
   padding: 0;
 }
@@ -652,7 +627,7 @@ a:hover {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #000;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -668,7 +643,7 @@ a:hover {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #4e4e4e;
+  color: #000;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -883,10 +858,6 @@ a:hover {
 .service-box .s-description {
   color: #4e4e4e;
 }
-
-/*--------------------------------------------------------------
-# Counter
---------------------------------------------------------------*/
 .counter-box {
   color: #fff;
   text-align: center;
@@ -914,9 +885,6 @@ a:hover {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
 .work-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
