@@ -45,6 +45,19 @@
     a:active {
       color: var(--link-color);
     }
+    .inline-photo {
+    margin: 2em auto;
+    opacity: 0;
+    transform: translateY(4em) rotateZ(-5deg);
+    transition: transform 3s .25s cubic-bezier(0,1,.3,1),opacity .3s .25s ease-out;
+    max-width: 600px;
+    width: 90%;
+    will-change: transform, opacity;
+}
+.inline-photo.is-visible {
+    opacity: 1;
+    transform: rotateZ(-2deg);
+}
 </style>
 <body>
 
@@ -158,9 +171,11 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-content">
-                <h2 class="s-title" style="text-transform: capitalize; white-space: nowrap;">Create A Website</h2>
+                <h2 class="s-title" style="text-transform: capitalize; white-space: nowrap;">JavaScript Programming Language</h2>
                 <p class="s-description text-center">
-                  <iframe width="280" height="185" src="https://www.youtube.com/embed/SiAHrKck3nY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <span class="inline-photo show-on-scroll">
+                    <iframe width="280" height="185" src="https://www.youtube.com/embed/H7C9wSXlYM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </span>
                 </p>
               </div>
             </div>
@@ -168,9 +183,11 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-content">
-                <h2 class="s-title" style="text-transform: capitalize;">How Http works?</h2>
+                <h2 class="s-title" style="text-transform: capitalize;">Host Website using GitHub</h2>
                 <p class="s-description text-center">
-                  <iframe width="280" height="185" src="https://www.youtube.com/embed/ysRVE4Dc9NU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <span class="inline-photo show-on-scroll">
+                    <iframe width="280" height="185" src="https://www.youtube.com/embed/cmRjoBTAsm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </span>
                 </p>
               </div>
             </div>
@@ -178,9 +195,11 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-content">
-                <h2 class="s-title" style="text-transform: capitalize;">HTML Forms</h2>
+                <h2 class="s-title" style="text-transform: capitalize;">Create A Website</h2>
                 <p class="s-description text-center">
-                  <iframe width="280" height="185" src="https://www.youtube.com/embed/EfTfk_-QZ7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <span class="inline-photo show-on-scroll">
+                    <iframe width="280" height="185" src="https://www.youtube.com/embed/SiAHrKck3nY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </span>
                 </p>
               </div>
             </div>
@@ -190,7 +209,9 @@
               <div class="service-content">
                 <h2 class="s-title" style="text-transform: capitalize;">Java Basic Input & Output</h2>
                 <p class="s-description text-center">
-                  <iframe width="280" height="185" src="https://www.youtube.com/embed/Pp4ETv0k2dU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <span class="inline-photo show-on-scroll">
+                    <iframe width="280" height="185" src="https://www.youtube.com/embed/Pp4ETv0k2dU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </span>
                 </p>
               </div>
             </div>
@@ -200,7 +221,9 @@
               <div class="service-content">
                 <h2 class="s-title" style="text-transform: capitalize;">Java GUI JFrame</h2>
                 <p class="s-description text-center">
-                  <iframe width="280" height="185" src="https://www.youtube.com/embed/-ucgSKYGxGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <span class="inline-photo show-on-scroll">
+                    <iframe width="280" height="185" src="https://www.youtube.com/embed/-ucgSKYGxGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </span>
                 </p>
               </div>
             </div>
@@ -210,7 +233,9 @@
               <div class="service-content">
                 <h2 class="s-title" style="text-transform: capitalize;">Learn Web Development</h2>
                 <p class="s-description text-center">
-                  <iframe width="280" height="185" src="https://www.youtube.com/embed/-jiI8id8hUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <span class="inline-photo show-on-scroll">
+                    <iframe width="280" height="185" src="https://www.youtube.com/embed/-jiI8id8hUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </span>
                 </p>
               </div>
             </div>
@@ -220,7 +245,9 @@
               <div class="service-content">
                 <h2 class="s-title" style="text-transform: capitalize;">What is HTML?</h2>
                 <p class="s-description text-center">
-                  <iframe width="280" height="185" src="https://www.youtube.com/embed/QtANljkXjRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <span class="inline-photo show-on-scroll">
+                    <iframe width="280" height="185" src="https://www.youtube.com/embed/QtANljkXjRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </span>
                 </p>
               </div>
             </div>
@@ -230,7 +257,9 @@
               <div class="service-content">
                 <h2 class="s-title" style="text-transform: capitalize;">Java Tutorial OOP</h2>
                 <p class="s-description text-center">
-                  <iframe width="280" height="185" src="https://www.youtube.com/embed/xcTWLYkh0Xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <span class="inline-photo show-on-scroll">
+                    <iframe width="280" height="185" src="https://www.youtube.com/embed/xcTWLYkh0Xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </span>
                 </p>
               </div>
             </div>
@@ -240,7 +269,9 @@
               <div class="service-content">
                 <h2 class="s-title" style="text-transform: capitalize;">CSS Navigation Bar</h2>
                 <p class="s-description text-center">
-                  <iframe width="280" height="185" src="https://www.youtube.com/embed/8SCO_haDmv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <span class="inline-photo show-on-scroll">
+                    <iframe width="280" height="185" src="https://www.youtube.com/embed/8SCO_haDmv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </span>
                 </p>
               </div>
             </div>
@@ -322,3 +353,41 @@
 </body>
 
 </html>
+
+<script>
+  
+var scroll = window.requestAnimationFrame ||
+             function(callback){ window.setTimeout(callback, 1000/60)};
+var elementsToShow = document.querySelectorAll('.show-on-scroll'); 
+
+function loop() {
+
+    Array.prototype.forEach.call(elementsToShow, function(element){
+      if (isElementInViewport(element)) {
+        element.classList.add('is-visible');
+      } else {
+        element.classList.remove('is-visible');
+      }
+    });
+
+    scroll(loop);
+}
+loop();
+
+function isElementInViewport(el) {
+  if (typeof jQuery === "function" && el instanceof jQuery) {
+    el = el[0];
+  }
+  var rect = el.getBoundingClientRect();
+  return (
+    (rect.top <= 0
+      && rect.bottom >= 0)
+    ||
+    (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+    ||
+    (rect.top >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+  );
+}
+</script>
