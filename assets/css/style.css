@@ -682,7 +682,7 @@ a:active {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #fff;
+  color: white;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
